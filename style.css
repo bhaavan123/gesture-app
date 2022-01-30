@@ -1,0 +1,62 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://media.istockphoto.com/photos/abstract-blue-digital-background-picture-id1146532466?k=20&m=1146532466&s=612x612&w=0&h=NjZrRzJH4nvxVmTGTvMrMrPGQ03fDNYTmRNoEiNSeCQ=");
+}
+.heading{
+font-size: 22px;  
+animation-name: example;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+font-family: 'Sedgwick Ave', cursive;
+}
+.note{
+    font-size: 13px;
+    color: black;
+    font-family: cursive;
+}
+@keyframes example{
+    from{border: 7px ridge orangered; border-radius: 0px;}
+  to{border: 9px ridge yellow; border-radius: 20px;}
+}
+
+.copy-right_footer{
+   font-family: 'Sedgwick Ave', cursive;
+    font-size: 20px;
+    animation-name: example;
+    font-weight: bolder;
+    text-align: center;
+    position: fixed;
+    width: 75%;
+    bottom: 8;
+    margin-left: 200px;
+    animation-name: example;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+canvas{
+animation-name: example;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+background-color: white;
+}
+
+video{
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;    
+}
+#status{
+    font-size: 22px;
+    font-family: 'Sedgwick Ave', cursive;
+    background-color: skyblue;
+    line-height: 30px; 
+    width: 60%;
+    height: 50px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+    color: white;
+
+}
